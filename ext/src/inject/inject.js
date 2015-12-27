@@ -8,9 +8,14 @@ chrome.extension.sendMessage({}, function(response) {
             var clutter = [
                 "t_bl", 
                 "p_h", 
-                "comment_box_main", 
+                "t_comments",
+                "separator",
+                "comment_box_main",
+                "comment_box_h_main",
                 "t_hs", 
-                "cm_cnt"
+                "cm_cnt",
+                "bdrunion",
+                "head_ad_UG"
             ]
 
             clutter.forEach(function(name){
@@ -19,6 +24,8 @@ chrome.extension.sendMessage({}, function(response) {
                 });
             });
 
+            var ads = document.getElementById("advanced_search");
+            ads.remove();
         }
 	}, 10);
 });
