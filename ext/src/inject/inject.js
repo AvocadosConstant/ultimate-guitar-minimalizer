@@ -25,7 +25,7 @@ chrome.extension.sendMessage({}, function(response) {
             });
 
             var ads = document.getElementById("advanced_search");
-            ads.remove();
+            if(ads) ads.remove();
         }
 	}, 10);
 });

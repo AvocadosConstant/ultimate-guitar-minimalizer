@@ -24,3 +24,4 @@ This chrome extension gets rid of all the clutter and shows you what you care ab
     - search bar
     - rating
 - Create toggleable dark and light modes
+- Design icons
