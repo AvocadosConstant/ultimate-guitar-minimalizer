@@ -4,7 +4,7 @@ This chrome extension gets rid of all the clutter and shows you what you care ab
 
 ### Try it out!
 1. Clone the repo
-2. Go to your [chrome extensions](chrome://extensions/)
+2. Go to your chrome://extensions/
 3. Click "Load unpacked extension"
 4. Navigate to the repo and select the ext/ directory
 
@@ -14,7 +14,8 @@ This chrome extension gets rid of all the clutter and shows you what you care ab
     - phone ad
     - video popup
     - sidebar
-    - comments.
+    - comments
+    
 ##### To-Do
 - Inject minimalist styling
 - Reduce header to bare minimum
