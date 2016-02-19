@@ -1,3 +1,7 @@
 /**
  * Place your custom CSS styles here.
  **/
+ body {
+    background-color: #FFF !important; 
+    font-size: 36px !important;
+ }

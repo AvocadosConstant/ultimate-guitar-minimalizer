@@ -15,7 +15,9 @@ chrome.extension.sendMessage({}, function(response) {
                 "t_hs", 
                 "cm_cnt",
                 "bdrunion",
-                "head_ad_UG"
+                "head_ad_UG",
+                "vote-success",     //  voting bullshit
+                "fb-meta"           //  social media bullshit
             ]
 
             clutter.forEach(function(name){
@@ -26,6 +28,8 @@ chrome.extension.sendMessage({}, function(response) {
 
             var ads = document.getElementById("advanced_search");
             if(ads) ads.remove();
-        }
+            
+            //chrome.tabs.executeScript(null, {code:"document.body.style.backgroundColor='#FFF'"});
+}
 	}, 10);
 });
