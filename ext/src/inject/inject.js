@@ -14,8 +14,14 @@ chrome.extension.sendMessage({}, function(response) {
           "cm_cnt",
           "bdrunion",
           "head_ad_UG",
-          "vote-success",     //  voting bullshit
-          "fb-meta"           //  social media bullshit
+          "vote-success",
+          "fb-meta",
+          "b-hats-banner",
+          "js-survey-banner",
+          "adv_bottom",
+          "js-ab-regular",
+          "b-suggest-correction",
+          "abs",
       ]
 
       clutter.forEach(function(name){
@@ -28,5 +34,5 @@ chrome.extension.sendMessage({}, function(response) {
       if(ads) ads.remove();
       //chrome.tabs.executeScript(null, {code:"document.body.style.backgroundColor='#FFF'"});
     }
-  }, 10);
+  }, 200);
 });

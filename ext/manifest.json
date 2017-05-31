@@ -17,8 +17,6 @@
         "128": "icons/icon128.png"
     },
 
-    "default_locale": "en",
-
     "permissions": [
         "https://tabs.ultimate-guitar.com/*"
     ],
