@@ -18,6 +18,7 @@
     },
 
     "permissions": [
+        "storage",
         "https://tabs.ultimate-guitar.com/*"
     ],
 

@@ -1,4 +1,4 @@
-chrome.extension.sendMessage({}, function(response) {
+function minimalize() {
   var readyStateCheckInterval = setInterval(function() {
     if (document.readyState === "complete") {
       clearInterval(readyStateCheckInterval);
@@ -35,4 +35,8 @@ chrome.extension.sendMessage({}, function(response) {
       //chrome.tabs.executeScript(null, {code:"document.body.style.backgroundColor='#FFF'"});
     }
   }, 200);
+}
+
+chrome.storage.sync.get('on', function(result){
+  if(result.on) minimalize();
 });
